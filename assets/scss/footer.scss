@@ -1,0 +1,31 @@
+#layout-footer{
+    height: 12vh;
+    margin-bottom: 0 !important;
+    margin-top: 10px !important;
+  
+    color: white;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    background: grey;
+    padding: 5px 10px;
+    display: flex;
+
+    justify-content: space-around;
+    div{
+        justify-self:baseline;
+        justify-content: center;
+        .mi{
+            vertical-align: middle;
+            margin: 2px 3px;
+            padding: 3px 2px;
+        }
+    }
+    .footer-nav{
+        ul{
+            list-style: none;
+        }
+    }
+}

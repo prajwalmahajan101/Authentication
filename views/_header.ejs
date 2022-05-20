@@ -1,0 +1,33 @@
+<header id="layout-header">
+    <nav>
+        <div class="mini-logo">
+            <p>
+                <a href='/'>
+                    <img class="img" src = "/images/logo.png">
+                </a>
+            </p>
+        </div>
+
+        <div class="auth-links">
+            <ul>
+                <% if (locals.user){ %>
+                    <li>
+                        <a href="/users/profile/<%= user._id %>">
+                            <%= user.name %>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/users/sign-out">Sign Out</a>
+                    </li>
+                    <% }else{ %>
+                        <li>
+                            <a href="/users/sign-in">Login In/Sign UP</a>
+                        </li>
+                        <% } %>
+            </ul>
+        </div>
+    </nav>
+
+
+
+</header>

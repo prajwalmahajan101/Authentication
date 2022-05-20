@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+  margin-bottom: 0 !important;
+  /* text-align: center; */ }
+  body #layout-main {
+    height: fit-content;
+    min-height: 77vh; }
